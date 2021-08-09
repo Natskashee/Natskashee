@@ -1,0 +1,245 @@
+@font-face {
+    font-family: 'coyoteregular';
+    src: url('Font/coyote_regular-webfont.woff2') format('woff2'),
+         url('Font/coyote_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'stinger_fit_trialbold';
+    src: url('Font/stingerfittrial-bold-webfont.woff2') format('woff2'),
+         url('Font/stingerfittrial-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+	  margin: 0;
+	  padding: 0;
+	  height: 100vh;
+	  font-family: 'coyoteregular';
+}
+
+h1{
+	color: red;
+	font-family: 'Times New Roman';
+	font-weight: bold;
+}
+p{ 
+	font-size: 17px;
+	line-height: 20px;
+	color: white;
+
+}
+#my-header{
+	text-align: center;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	color: white;
+	background: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg');
+	background-size: cover;
+	background-position: center;
+
+}	
+li{
+    list-style: none;
+}
+
+.menu-anime{
+	cursor: pointer;
+	background-color: crimson;
+	text-align: center;
+	padding: 6px;
+	border-radius: 10px;
+   }
+.menu-music:hover{
+	cursor: pointer;
+}
+.menu-videos:hover{
+  cursor: pointer;
+}
+.menu-documents:hover{
+	cursor: pointer;
+}
+
+#my-footer{
+	background-color:crimson;
+	opacity: 97%;
+	color: lightgrey;
+    font-size: 15px;
+}
+
+nav li{
+	text-align: center;
+	display: inline-flex;
+	padding-top:16px;
+	margin-right: 10px;
+}
+
+#my-footer ul li{
+	display:inline-block;
+	margin-left: auto;
+	margin-right: auto;
+}
+#my-footer p{
+	text-align: center;
+}
+
+.icon{
+	position: relative;
+	margin-left:40%;
+
+
+}
+
+.icon img{
+	margin-right: 12px;
+}
+
+#my-header i{
+   margin-left: 8px;
+   padding-top: 5px;
+   text-align: center;
+}
+
+.my-container{
+	background-image: url('https://i.pinimg.com/originals/98/c3/b1/98c3b185a0899a853c33eadadabf78b6.jpg');
+	background-size: cover;
+	background-position:center;
+	font-family: Times;
+	height: auto;
+	
+}
+
+.row{
+	 width:100%;
+	 display: inline-flex;
+	 justify-content: center;
+	 flex-wrap:wrap;
+}
+
+.card1{
+	background-image: url('https://www.nautiljon.com/images/anime/00/30/goblin_slayer_7603.jpg');
+	position: relative;
+	flex: 1;
+	max-width: 240px;
+	height: 350px;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #DC143C;
+	min-width: 200px;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.card2{
+	background-image: url('https://static.wikia.nocookie.net/hunterxhunter/images/e/e2/Chimera_ant_arc_poster.png/revision/latest?cb=20130414033003');
+	position: relative;
+	flex: 1;
+	max-width: 240px;
+	height: 350px;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #DC143C;
+	min-width: 200px;
+	background-size: cover;
+	background-position: center;
+}
+
+.card3{
+	background-image: url('https://img5.cdn.cinoche.com/images/7dd2baa76871a83329e46b31a0651e5b.jpg');
+	position: relative;
+	flex: 1;
+	max-width: 240px;
+	height: 350px;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #DC143C;
+	min-width: 200px;
+	background-size: cover;
+	background-position: center;
+}
+
+.card4{
+	background-image: url('https://media.senscritique.com/media/000017065723/source_big/Jo_Jo_s_Bizarre_Adventure_Stardust_Crusaders_Battle_In_Egypt.jpg');
+	position: relative;
+	flex: 1;
+	max-width: 240px;
+	height: 350px;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #DC143C;
+	min-width: 200px;
+	background-size: cover;
+	background-position: center;
+}
+
+
+
+.my-container h2{
+	color: white;
+	background-color: crimson;
+}
+/*.my-container img{
+	display: block;
+	max-width: 100%;
+	height:auto;
+	width: 650px;
+	margin-left: auto;
+	margin-right: auto;
+}*/
+
+.card1{
+}
+
+.card2{
+	
+
+}
+
+
+h3{
+	font-size:20px;
+	color: white;
+	font-family: Arial;
+	text-align: center;
+}
+
+.icon-play{
+	font-size: 3rem;
+	color: crimson;
+	position: absolute;
+	top: 40%;
+	right: 40%;
+	cursor: pointer;
+}
+
+.fas{
+	background-color: #fff;
+	border-radius: 50%;
+
+
+}
+
+.icon-play:hover{
+	animation: bounce 1s linear infinite;
+	transition: 1s;
+}
+
+@keyframes bounce{
+	10%{
+
+		transform: scale(0.3);
+		 
+	}
+
+	100%{
+
+		transform: scale(1.0);
+	}
+}
+}
