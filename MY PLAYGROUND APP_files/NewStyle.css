@@ -16,11 +16,39 @@
 
 }
 
+@font-face {
+    font-family: 'magensburgmagensburg';
+    src: url('Font/magensburg-webfont.woff2') format('woff2'),
+         url('Font/magensburg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'blorashadow';
+    src: url('Font/blora_shadow-webfont.woff2') format('woff2'),
+         url('Font/blora_shadow-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+@font-face {
+    font-family: 'gillattozregular';
+    src: url('Font/gillattoz-webfont.woff2') format('woff2'),
+         url('Font/.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
 	  margin: 0;
 	  padding: 0;
 	  height: 100vh;
-	  font-family: 'coyoteregular';
+	  font-family: 'magensburgmagensburg';
 }
 
 h1{
@@ -79,19 +107,12 @@ nav li{
 	margin-right: 10px;
 }
 
-#my-footer ul li{
-	display:inline-block;
-	margin-left: auto;
-	margin-right: auto;
-}
 #my-footer p{
 	text-align: center;
 }
 
 .icon{
-	position: relative;
-	margin-left:40%;
-
+    text-align: center;
 
 }
 
@@ -122,11 +143,12 @@ nav li{
 }
 
 .card1{
-	background-image: url('https://d2y6mqrpjbqoe6.cloudfront.net/image/upload/f_auto,q_auto/media/library-400/206_636966626592018707Goblin-Slayer_Small_hq.jpg');
+	background-image: url('https://www.nautiljon.com/images/anime/00/30/goblin_slayer_7603.jpg');
 	position: relative;
 	flex: 1;
 	max-width: 240px;
 	height: 350px;
+
 	margin: 10px;
 	border-radius: 5px;
 	box-shadow: 0 0 5px #DC143C;
@@ -137,7 +159,7 @@ nav li{
 }
 
 .card2{
-	background-image: url('https://i.pinimg.com/originals/b8/00/0d/b8000d22001cac0ad87433b7ab97898d.jpg');
+	background-image: url('https://static.wikia.nocookie.net/hunterxhunter/images/e/e2/Chimera_ant_arc_poster.png/revision/latest?cb=20130414033003');
 	position: relative;
 	flex: 1;
 	max-width: 240px;
@@ -178,6 +200,113 @@ nav li{
 	background-position: center;
 }
 
+.card5{
+	background-image: url('https://www.ecured.cu/images/6/6b/Death_Parade.jpg');
+	position: relative;
+	flex: 1;
+	max-width: 240px;
+	height: 350px;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #DC143C;
+	min-width: 200px;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.card6{
+	background-image: url('https://www.manga-news.com/public/images/dvd/anohana-anime.jpg');
+	position: relative;
+	flex: 1;
+	max-width: 240px;
+	height: 350px;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #DC143C;
+	min-width: 200px;
+	background-size: cover;
+	background-position: center;
+
+
+}
+
+.card7{
+	background-image: url('https://m.media-amazon.com/images/M/MV5BMjlmZmI5MDctNDE2YS00YWE0LWE5ZWItZDBhYWQ0NTcxNWRhXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_.jpg');
+	position: relative;
+	flex: 1;
+	max-width: 240px;
+	height: 350px;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #DC143C;
+	min-width: 200px;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.card8{
+	background-image: url('https://media.senscritique.com/media/000011430202/source_big/Haikyu.jpg');
+	position: relative;
+	flex: 1;
+	max-width: 240px;
+	height: 350px;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #DC143C;
+	min-width: 200px;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.card9{
+	background-image: url('https://static.posters.cz/image/750/affiches-et-posters/attack-on-titan-shingeki-no-kyojin-season-2-collage-key-art-i66601.jpg');
+	position: relative;
+	flex: 1;
+	max-width: 240px;
+	height: 350px;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #DC143C;
+	min-width: 200px;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.card10{
+	background-image: url('https://media.senscritique.com/media/000006480351/source_big/Fullmetal_Alchemist_Brotherhood.jpg');
+	position: relative;
+	flex: 1;
+	max-width: 240px;
+	height: 350px;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #DC143C;
+	min-width: 200px;
+	background-size: cover;
+	background-position: center;
+
+}
+
+.card5{
+	background-image: url('https://www.ecured.cu/images/6/6b/Death_Parade.jpg');
+	position: relative;
+	flex: 1;
+	max-width: 240px;
+	height: 350px;
+	margin: 10px;
+	border-radius: 5px;
+	box-shadow: 0 0 5px #DC143C;
+	min-width: 200px;
+	background-size: cover;
+	background-position: center;
+
+}
+
+
 
 
 .my-container h2{
@@ -193,20 +322,12 @@ nav li{
 	margin-right: auto;
 }*/
 
-.card1{
-}
-
-.card2{
-	
-
-}
-
 
 h3{
-	font-size:20px;
-	color: white;
-	font-family: Arial;
+	font-size:30px;
+	font-family: 'gillattozregular';
 	text-align: center;
+	color: whitesmoke;
 }
 
 .icon-play{
@@ -221,9 +342,11 @@ h3{
 .fas{
 	background-color: #fff;
 	border-radius: 50%;
+	color: crimson;
 
 
 }
+
 
 .icon-play:hover{
 	animation: bounce 1s linear infinite;
@@ -242,4 +365,16 @@ h3{
 		transform: scale(1.0);
 	}
 }
+}
+
+
+.add{
+	text-align: center;
+}
+
+.add img{
+	height: 40px;
+	background-color: crimson;
+	border-radius:50%;
+	cursor: pointer;
 }
