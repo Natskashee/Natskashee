@@ -18,20 +18,68 @@
     <link rel="stylesheet" type="text/css" href="./MY PLAYGROUND APP_files/font-awesome.css"> 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
   </head>
   <body>
+
+
    <div id="my-header">
-     <h1>ORE WA MO MUZUKASHII <i class="fa fa-check"></i></h1>
+
+
+   <div class="menu-btn">
+
+      <i class="fas fa-bars"></i>
+      
+
+   </div>
+
+    <div class="side-bar">
+     <div class="logo"> <h2> NATSUKASHII </h2> </div>
+      <div class="close-btn">
+
+         <i class="fas fa-times"></i>
+      </div>
+
+      <div class="menu">
+
+
+      <ul>
+         <li>
+         <i class="fa fa-search"></i>
+         <input type="text" placeholder="search">
+
+        
+         <li> <a href="#"><i class="fa fa-tv"></i>Anime</a></li>
+
+         <li><a href="#"><i class="fa fa-music"></i>Music</a></li>
+
+         <li> <a href="#"><i class="fa fa-book"></i>Ecrire</a></li>
+
+         <li><a href="#"><i class="fa fa-question-circle"></i>Quizz</a></li>
+
+         <li><a href="#"><i class="fa fa-user"></i>About us</a></li>
+      </ul>
+
+      </div>
+      </div>
+
+  
+ <div class="title">
+     <h1>ORE WA MO MUZUKASHII <i class="fa fa-check"></i></h1> 
      <p>Il n'y a pas de forteresse imprénable, il n'y a que des mauvais assailants.</p>
      <a href="#" class="btn btn-danger">JOIN</a>
+
     <nav>
-     <ul>
-      <li class="menu-anime">Anime <i class="fa fa-cloud"></i></li>
-      <li class="menu-music">Musique <i class="fa fa-music"></i></li>
-      <li class="menu-videos">Videos <i class="fa fa-camera"></i></li>
-      <li class="menu-documents">Documents <i class="fa fa-envelope"></i></li><br>
+     <ul> 
+      <li class="menu-anime">Acceuil<i class="fa fa-home"></i></li>
+      <li class="menu-music">Account<i class="fa fa-user-circle"></i></li>
+      <li class="menu-videos">Message <i class="fa fa-envelope"></i></li>
+      <li class="menu-documents">Seetings<i class="fa fa-cog"></i></li><br>
      </ul>
    </nav>
+</div>
+  
     </div>
 
   <div class="my-container">
@@ -103,7 +151,7 @@
     <h3>Le voyage de Chihiro</h3>
    <div class="card7">
 
-      <div class="icon-play"><a href="https://voiranime.com/anime/death-parade/" target="_blank"><i class="fas fa-play-circle"></i></a></div>
+      <div class="icon-play"><a href="https://voiranime.com/anime/le-voyage-de-chihiro/" target="_blank"><i class="fas fa-play-circle"></i></a></div>
 
    </div>
 
@@ -113,7 +161,7 @@
     <h3>Haikyuu!!</h3>
    <div class="card8">
 
-      <div class="icon-play"><a href="https://voiranime.com/anime/death-parade/" target="_blank"><i class="fas fa-play-circle"></i></a></div>
+      <div class="icon-play"><a href="https://voiranime.com/anime/haikyu/" target="_blank"><i class="fas fa-play-circle"></i></a></div>
 
    </div>
 
@@ -123,7 +171,7 @@
     <h3>Shingeki No Kyojin</h3>
    <div class="card9">
 
-      <div class="icon-play"><a href="https://voiranime.com/anime/death-parade/" target="_blank"><i class="fas fa-play-circle"></i></a></div>
+      <div class="icon-play"><a href="https://voiranime.com/anime/shingeki-no-kyojin/" target="_blank"><i class="fas fa-play-circle"></i></a></div>
 
    </div>
 
@@ -132,7 +180,7 @@
     <h3>Fullmetal Alchemist</h3>
    <div class="card10">
 
-      <div class="icon-play"><a href="https://voiranime.com/anime/death-parade/" target="_blank"><i class="fas fa-play-circle"></i></a></div>
+      <div class="icon-play"><a href="https://voiranime.com/anime/fullmetal-alchemist-brotherhood/" target="_blank"><i class="fas fa-play-circle"></i></a></div>
 
    </div>
 
@@ -149,6 +197,8 @@
 
   </div>
 
+<br>
+   <iframe src="https://open.spotify.com/embed/album/4XLPYMERZZaBzkJg0mkdvO" width="70%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
   <br><br><br>
 
 
@@ -167,6 +217,26 @@
     </div>
        <br>
      </div>
+
+
+      <script type="text/javascript">
+
+    $(document).ready(function(){
+  
+       $('.menu-btn').click(function(){
+         $('.side-bar').addClass('active');
+         $('.menu-btn').css("visibility", "hidden");
+      });
+
+
+       $('.close-btn').click(function(){
+         $('.side-bar').removeClass('active');
+         $('.menu-btn').css("visibility", "visible");
+      });
+
+    });
+
+    </script>
 
 </body>
 </html>
