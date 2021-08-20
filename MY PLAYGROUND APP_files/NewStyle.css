@@ -552,9 +552,6 @@ iframe{
 @media (max-width: 800px) {
 	 .navbar{
 	 	 flex-direction: column;
-	 }
-
-	 .navbar .fa{
-	 	position: absolute;
-	 }
+	}
+	
 }
