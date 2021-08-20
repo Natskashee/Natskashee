@@ -72,7 +72,7 @@ p{
 	text-align: center;
 	padding-top: 150px;
 	padding-bottom: 150px;
-	color: white;
+	color: #FFFFFF;
 	background: url('https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885_960_720.jpg');
 	background-size: cover;
 	background-position: center;
@@ -148,7 +148,7 @@ li{
 
 button{
 	padding: 9px 25px;
-	background-color:white;
+	background-color:whitesmoke;
 	border: none;
 	border-radius:50px;
 	cursor: pointer;
@@ -156,7 +156,7 @@ button{
 }
 
 button:hover{
-	color: white;
+	color: #FFFFFF;
 	background-color: crimson;
 	
 }
@@ -362,7 +362,7 @@ h3{
 	font-size:30px;
 	font-family: 'gillattozregular';
 	text-align: center;
-	color: whitesmoke;
+	color:#FFFFFF;
 }
 
 .icon-play{
@@ -376,7 +376,7 @@ h3{
 
 
 .my-container .fas{
-	background-color: #fff;
+	background-color: #FFFFFF;
 	border-radius: 50%;
 	color: crimson;
 
@@ -537,6 +537,7 @@ iframe{
 	border: none;
 	padding-left:20%;
 	font-size: 18px;
+	color:#FFFFFF;
 
 }
 
@@ -555,11 +556,5 @@ iframe{
 
 	 .navbar .fa{
 	 	position: absolute;
-	 }
-}
-
-@media (max-width: 460px) {
-	 .navbar .fa{
-        min-height: 24px;
 	 }
 }
