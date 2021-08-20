@@ -197,7 +197,7 @@ button:hover{
 }
 
 .card1{
-	background-image: url('./MY PLAYGROUND APP_files/Goblin slayer.jpg');
+	background-image: url('Goblin slayer.jpg');
 	position: relative;
 	flex: 1;
 	max-width: 240px;
@@ -212,7 +212,7 @@ button:hover{
 }
 
 .card2{
-	background-image: url('./MY PLAYGROUND APP_files/Hunter.jpg');
+	background-image: url('Hunter.jpg');
 	position: relative;
 	flex: 1;
 	max-width: 240px;
