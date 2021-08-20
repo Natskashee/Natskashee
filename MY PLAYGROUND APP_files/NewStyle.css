@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 @font-face {
     font-family: 'coyoteregular';
     src: url('Font/coyote_regular-webfont.woff2') format('woff2'),
@@ -48,20 +51,23 @@ body{
 	  margin: 0;
 	  padding: 0;
 	  min-height: 100vh;
-	  font-family: 'Helvetica';
+	  
 }
 
 h1{
 	color: red;
-	font-family: 'Times New Roman';
+	font-family:'Times';
 	font-weight: bold;
 }
 p{ 
 	font-size: 17px;
 	line-height: 20px;
 	color: white;
+	font-family: 'Roboto', sans-serif;
 
 }
+
+
 #my-header{
 	text-align: center;
 	padding-top: 150px;
@@ -71,18 +77,20 @@ p{
 	background-size: cover;
 	background-position: center;
 
-}	
+}
+
 li{
     list-style: none;
 }
 
-.menu-anime{
+/*.menu-anime{
 	cursor: pointer;
 	background-color: crimson;
 	text-align: center;
 	padding: 6px;
 	border-radius: 10px;
-   }
+   }*/
+
 .menu-music:hover{
 	cursor: pointer;
 }
@@ -94,20 +102,65 @@ li{
 }
 
 #my-footer{
-	background-color:crimson;
+	background-color:crimson; /*#2929ff;*/
 	opacity: 97%;
 	color: lightgrey;
     font-size: 15px;
     
 }
 
-.title nav li{
+/*.navbar nav li{
 	text-align: center;
-	display:inline-flex ;
-	padding-top:16px;
+	display:inline-flex;
+	padding: auto;
 	margin-right: 18px;
-	font-size:20px;
+	font-size:14px;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	max-width:50%;
+
+}*/
+
+.navbar{
+	background-color:crimson;
+	font-family: 'Roboto', sans-serif;
+	display: flex;
 }
+
+.nav_links{
+	display: inline-flex;
+	font-family:
+
+}
+.navbar nav li{
+    margin-left: 12px;
+    color: #fff;
+}
+
+.navbar .fa{
+	margin-left: 6px;
+}
+
+.menu-anime{
+	cursor: pointer;
+}
+
+button{
+	padding: 9px 25px;
+	background-color:white;
+	border: none;
+	border-radius:50px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+}
+
+button:hover{
+	color: white;
+	background-color: crimson;
+	
+}
+
 
 #my-footer p{
 	text-align: center;
@@ -124,12 +177,12 @@ li{
 
 #my-header i{
    margin-left: 8px;
-   padding-top: 5px;
+   padding-top: 3px;
    text-align: center;
 }
 
 .my-container{
-	background-image: url('https://i.pinimg.com/originals/98/c3/b1/98c3b185a0899a853c33eadadabf78b6.jpg');
+    background-image: url('https://i.pinimg.com/originals/98/c3/b1/98c3b185a0899a853c33eadadabf78b6.jpg');
 	background-size: cover;
 	background-position:center;
 	height: auto;
@@ -140,7 +193,7 @@ li{
 	 width:100%;
 	 display: inline-flex;
 	 justify-content: center;
-	 flex-wrap:wrap;333333333333333333333
+	 flex-wrap:wrap;
 }
 
 .card1{
@@ -149,7 +202,6 @@ li{
 	flex: 1;
 	max-width: 240px;
 	height: 350px;
-
 	margin: 10px;
 	border-radius: 5px;
 	box-shadow: 0 0 5px #DC143C;
@@ -285,34 +337,16 @@ li{
 	height: 350px;
 	margin: 10px;
 	border-radius: 5px;
-	box-shadow: 0 0 5px #DC143C;
+	box-shadow: 0 0 5px #DC143C;;
 	min-width: 200px;
 	background-size: cover;
 	background-position: center;
 
 }
-
-.card5{
-	background-image: url('https://www.ecured.cu/images/6/6b/Death_Parade.jpg');
-	position: relative;
-	flex: 1;
-	max-width: 240px;
-	height: 350px;
-	margin: 10px;
-	border-radius: 5px;
-	box-shadow: 0 0 5px #DC143C;
-	min-width: 200px;
-	background-size: cover;
-	background-position: center;
-
-}
-
-
-
 
 .my-container h2{
 	color: white;
-	background-color: crimson;
+	background-color:crimson;
 }
 /*.my-container img{
 	display: block;
@@ -385,7 +419,19 @@ iframe{
 	display: block;
 	margin-right: auto;
 	margin-left: auto;
-	box-shadow: 0 0 7px #DC143C;
+	box-shadow: 0 0 7px #DC143C;;
+}
+
+.side-bar img{
+	 cursor: pointer;
+}
+
+.navbar img{
+	 cursor: pointer;
+}
+
+.my-container h2 img{
+	cursor: pointer;
 }
 
 
@@ -393,7 +439,7 @@ iframe{
 	background:crimson;
 	opacity: 80%;
 	width: 300px;
-	height:100%;
+	height:250%;
 	position:absolute;
 	top:25%;
 	left:-100%;
@@ -430,12 +476,11 @@ iframe{
 
 .menu-btn{
 	position: relative;
-	color: red;
+	color: crimson;
 	font-size: 2rem;
-	margin: 25px;
+	margin:25px;
 	cursor: pointer;
 	float: left;
-
 
 	}
 
@@ -503,5 +548,18 @@ iframe{
 	font-size: 22px;
 }
 
+@media (max-width: 800px) {
+	 .navbar{
+	 	 flex-direction: column;
+	 }
 
+	 .navbar .fa{
+	 	position: absolute;
+	 }
+}
 
+@media (max-width: 460px) {
+	 .navbar .fa{
+        min-height: 24px;
+	 }
+}
