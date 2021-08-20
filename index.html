@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- saved from url=(0082)file:///C:/Users/HP%20EliteBook%20i5/OneDrive/Documents/Web%20test/index%203.html# -->
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -17,13 +16,13 @@
     <link rel="stylesheet" type="text/css" href="./MY PLAYGROUND APP_files/css">
     <link rel="stylesheet" type="text/css" href="./MY PLAYGROUND APP_files/font-awesome.css"> 
     <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 
   </head>
   <body>
 
-
+<div class="body">
    <div id="my-header">
 
 
@@ -35,15 +34,15 @@
    </div>
 
     <div class="side-bar">
-     <div class="logo"> <h2> NATSUKASHII </h2> </div>
+      
+     <div class="logo"> </div>
       <div class="close-btn">
 
          <i class="fas fa-times"></i>
       </div>
 
       <div class="menu">
-
-
+               <img src="https://fontmeme.com/permalink/210818/616a275aa5a3c140ce7957cdb70d2bcc.png" alt="for-all-mankind-font" border="0" height="40">
       <ul>
          <li>
          <i class="fa fa-search"></i>
@@ -62,25 +61,33 @@
       </ul>
 
       </div>
-      </div>
+   </div>
 
-  
- <div class="title">
+
      <h1>ORE WA MO MUZUKASHII <i class="fa fa-check"></i></h1> 
      <p>Il n'y a pas de forteresse imprénable, il n'y a que des mauvais assailants.</p>
      <a href="#" class="btn btn-danger">JOIN</a>
 
+ </div>
+<div class="navbar">
+      <img src="https://fontmeme.com/permalink/210818/616a275aa5a3c140ce7957cdb70d2bcc.png" alt="for-all-mankind-font" border="0" height="40">
+
+
     <nav>
-     <ul> 
+     <ul class="nav_links"> 
       <li class="menu-anime">Acceuil<i class="fa fa-home"></i></li>
       <li class="menu-music">Account<i class="fa fa-user-circle"></i></li>
       <li class="menu-videos">Message <i class="fa fa-envelope"></i></li>
       <li class="menu-documents">Seetings<i class="fa fa-cog"></i></li><br>
      </ul>
    </nav>
+
+<div class="contact">
+   <a class="cta" href="#"><button>Contact</button></a>
 </div>
-  
-    </div>
+
+
+ </div>
 
   <div class="my-container">
 
@@ -208,7 +215,7 @@
      <p>This website is a product © Natsukashii</p>
 
     <div class="icon">
-     
+ 
      <a href="https://youtube.com"><img src="./MY PLAYGROUND APP_files/youtube.png"></a>
      <a href="https://facebook.com/"><img src="./MY PLAYGROUND APP_files/facebook.png"></a>
      <a href="https://twitter.com/"><img src="./MY PLAYGROUND APP_files/twitter.png"></a>
@@ -236,7 +243,14 @@
 
     });
 
-    </script>
+    $.getJSON('https://api.quotable.io/random', function (data) {
+  console.log(`${data.content} —${data.author}`)
+})
 
+
+
+
+    </script>
+</div>
 </body>
 </html>
