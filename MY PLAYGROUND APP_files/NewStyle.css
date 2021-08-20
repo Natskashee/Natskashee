@@ -197,7 +197,7 @@ button:hover{
 }
 
 .card1{
-	background-image: url('https://www.nautiljon.com/images/anime/00/30/goblin_slayer_7603.jpg');
+	background-image: url('./MY PLAYGROUND APP_files/Goblin slayer.jpg');
 	position: relative;
 	flex: 1;
 	max-width: 240px;
@@ -212,7 +212,7 @@ button:hover{
 }
 
 .card2{
-	background-image: url('https://static.wikia.nocookie.net/hunterxhunter/images/e/e2/Chimera_ant_arc_poster.png/revision/latest?cb=20130414033003');
+	background-image: url('./MY PLAYGROUND APP_files/Hunter.jpg');
 	position: relative;
 	flex: 1;
 	max-width: 240px;
